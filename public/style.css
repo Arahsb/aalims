@@ -1,0 +1,79 @@
+:root {
+  --secondary-color: #fb6f92;
+  --font-size: 16px;
+  --font-family-primary: 'Mulish', sans-serif;
+}
+/* index.html file */
+body {
+  font-family: var(--font-family-primary);
+}
+
+.navbar-brand img {
+  width: 130px;
+}
+.nav-link {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size);
+  font-weight: 400;
+  color: #fbfbfb;
+}
+.nav-link:hover {
+  color: var(--secondary-color);
+}
+#signup-btn {
+  background-color: var(--secondary-color);
+  color: #fbfbfb;
+}
+#info-btn {
+  color: #fbfbfb;
+}
+
+/* search form */
+.results-section {
+  margin-top: 20px;
+}
+.result-category {
+  margin-top: 10px;
+}
+.dropdown-menu {
+  min-width: 100px; /* Ensure the dropdown is wide enough */
+  width: max-content; /* Adjust width to fit content */
+}
+.dropdown-toggle::after {
+  display: none; /* Hide the dropdown arrow for better fit */
+}
+/* search form ends */
+
+.full-width {
+  width: 100%;
+  height: auto;
+}
+.feature-item img {
+  width: 75px;
+  height: auto;
+}
+.subscribe {
+  /* background-image: url(img/incline.jpg); */
+  /* background-size: cover;
+  background-position: center; */
+  background-color: var(--secondary-color);
+}
+.brand-icon img {
+  width: 125px;
+  height: auto;
+}
+
+.blur-filter {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  background-color: rgb(255 255 255 / 30%);
+}
+.copyright {
+  background-color: #9fa6b2;
+}
+
+/* signup.html file */
+#message {
+  display: none;
+}
